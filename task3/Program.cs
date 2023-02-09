@@ -27,3 +27,5 @@ void PrintArray(int[] array)//вывод массива
 int[] array = new int[8];
 InitArray(array);
 PrintArray(array);
+
+//Console.WriteLine($"[{String.Join("; ", array)}]"); второй вариант вывода массива
